@@ -27,13 +27,26 @@ span {
 .square {
   width: 32%;
   margin: auto;
-  height: 100px;
+  min-height: 100px;
   background-color: #f25;
   font-size: 4rem;
 
 }
-
 .square:hover{
   background-color: #000;
   cursor: pointer;
 }
+@media (max-width: 700px) {
+  .square {
+    width: 25%;
+    font-size: 1.5rem;
+  
+  }
+  .title {
+   
+    font-size: 1.5rem;
+  
+  }
+
+
+ }
